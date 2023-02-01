@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView courseRV = findViewById(R.id.idRVCourse);
 
         ArrayList<CourseModel> courseModelArrayList = new ArrayList<CourseModel>();
-        courseModelArrayList.add(new CourseModel("DSA in Java", 4, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("Java Course", 3, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("C++ Course", 4, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("DSA in C++", 4, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("Kotlin for Android", 4, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("Java for Android", 4, R.drawable.flemingo));
-        courseModelArrayList.add(new CourseModel("HTML and CSS", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter One", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Two", 3, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Three", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Four", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Five", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Six", 4, R.drawable.flemingo));
+        courseModelArrayList.add(new CourseModel("Chapter Seven", 4, R.drawable.flemingo));
         CourseAdapter courseAdapter = new CourseAdapter(this, courseModelArrayList);
 
 
