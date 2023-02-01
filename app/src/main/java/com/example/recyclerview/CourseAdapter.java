@@ -30,7 +30,7 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull CourseAdapter.ViewHolder holder, int position) {
         CourseModel model = courseModelArrayList.get(position);
-        holder.courseNameTV.setText(model.getCourse_name());
+        holder.courseNameTV.setText(model.getChapter_name());
         holder.courseRatingTV.setText("" + model.getCourse_rating());
         holder.courseIV.setImageResource(model.getCourse_image());
     }

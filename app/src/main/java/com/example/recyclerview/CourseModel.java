@@ -2,22 +2,22 @@ package com.example.recyclerview;
 
 public class CourseModel {
 
-    private String course_name;
+    private String chapter_name;
     private int course_rating;
     private int course_image;
 
-    public CourseModel(String course_name, int course_rating, int course_image) {
-        this.course_name = course_name;
+    public CourseModel(String chapter_name, int course_rating, int course_image) {
+        this.chapter_name = chapter_name;
         this.course_rating = course_rating;
         this.course_image = course_image;
     }
 
-    public String getCourse_name() {
-        return course_name;
+    public String getChapter_name() {
+        return chapter_name;
     }
 
-    public void setCourse_name(String course_name) {
-        this.course_name = course_name;
+    public void setChapter_name(String chapter_name) {
+        this.chapter_name = chapter_name;
     }
 
     public int getCourse_rating() {
